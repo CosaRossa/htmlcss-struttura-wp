@@ -1,0 +1,31 @@
+header {
+  background-color: yellow;
+  height: 150px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  height: 320px;
+  background-color: pink;
+  margin: 15px 2%;
+}
+
+.main {
+  float: left;
+  width: 38%;
+  height: 480px;
+  background-color: purple;
+  margin: 15px 2%
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+footer {
+  height: 100px;
+  background-color: lightblue;
+}
