@@ -3,20 +3,26 @@
   box-sizing: border-box;
 }
 
-
+/* Header e intestazione */
 header {
   background-color: yellow;
   height: 150px;
 }
 
+/* Colonne generale */
 .column {
   float: left;
   width: 25%;
-  height: 320px;
-  background-color: pink;
   margin: 15px 2%;
 }
 
+/* Colonna sx */
+.left {
+  height: 320px;
+  background-color: pink;
+}
+
+/* Centrale */
 .main {
   float: left;
   width: 38%;
@@ -25,12 +31,20 @@ header {
   margin: 15px 2%
 }
 
+/* Colonna dx */
+article {
+  height: 200px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
 .clearfix::after {
   clear: both;
   content: "";
   display: table;
 }
 
+/* Fondo pagina */
 footer {
   height: 100px;
   background-color: lightblue;
